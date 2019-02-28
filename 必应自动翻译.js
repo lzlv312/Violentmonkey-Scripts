@@ -23,7 +23,7 @@ var jsMain = function() {
 };
 
 document.onreadystatechange = function() {
-  if (document.readyState == "complete") {
+  if (document.readyState == 'complete') {
     jsMain();
   };
 };
